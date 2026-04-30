@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduHelper — AI Tutor</title>
+    <title>EduHelperAgent</title>
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -245,7 +245,7 @@
     <div class="chat-header">
         <div class="avatar">🎓</div>
         <div class="info">
-            <h1>EduHelper AI</h1>
+            <h1>EduHelperAgent</h1>
             <p><span class="status-dot"></span>Online · Your personal tutor</p>
         </div>
     </div>
