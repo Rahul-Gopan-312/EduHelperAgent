@@ -82,7 +82,7 @@ php artisan migrate
 php artisan serve
 ```
 
-Visit **http://localhost:8000/chat**
+Visit **http://127.0.0.1:8000/chat**
 
 ---
 
@@ -140,13 +140,3 @@ Each user gets their own isolated conversation history via their session ID.
 | `SESSION_DRIVER` | Set to `database` (default) |
 | `DB_CONNECTION` | Set to `sqlite` (default) |
 
----
-
-## Getting a Free Groq API Key
-
-1. Go to [console.groq.com/keys](https://console.groq.com/keys)
-2. Sign up for a free account
-3. Click **Create API Key**
-4. Copy the key into your `.env` file as `GROQ_API_KEY`
-
-Groq's free tier supports **14,400 requests/day** — more than enough for development and demos.
