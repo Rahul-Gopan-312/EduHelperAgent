@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ChatController;
 
-Route::get('/chat', function () {
+Route::get('/', function () {
     return view('chat');
 });
 
